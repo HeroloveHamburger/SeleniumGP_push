@@ -35,7 +35,7 @@ while True:
             #打印第幾次判斷
             print(x)
             sleep(1)
-            #使用用絕對位置獲取帳號ID
+            #使用絕對位置獲取帳號ID
             Findaccount = broswer.find_element_by_xpath("//div[@id ='BH-master']/section[@class ='c-section']["+str(x)+"]/div[@class ='c-section__main c-post ']/div [@class ='c-post__header']/div[@class = 'c-post__header__author']/a[@class ='userid']")
             #判斷找到新帳號和舊帳號是否相等
             #如果不相等繼續下面的判斷
